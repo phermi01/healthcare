@@ -156,7 +156,7 @@ plt.tight_layout()
 plt.show()
 ```
 ##  Results
-![Visualization of underserved demographics across patient population](healthcare_visuals\2_underserved_demographics.png)
+![Visualization of underserved demographics across patient population](healthcare_visuals/2_underserved_demographics.png)
 
 
 ### Insights:
