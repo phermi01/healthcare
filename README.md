@@ -88,7 +88,7 @@ health_1.sample(10, random_state=42)
 
 ## 1. Assessing Gender Disparities in the Prevalence of Medical Conditions
 
-### Visualizing Data
+### Visualize Data
 
 ``` python
 plt.figure(figsize=(14, 6))
@@ -129,9 +129,10 @@ Facility should consider:
 - Investigating possible causes for gender disparity in Asthma, such as access barriers or cultural stigma.
 - Assessing  whether Asthma is genuinely rare or underdiagnosed due to low screening rates or awareness.
 
+# The Analysis
 ## 2. Identifying Underserved Demographics Across Patient Populations
 
-### Visualizaing data
+### Visualize data
 ``` python
 # Defining color palette
 palette = sns.color_palette("Set2", len(labels))
@@ -171,9 +172,10 @@ Facility should consider:
 - Creating awareness or mobile care services targeting individuals aged 0-17.
 - Collaborating with Aetna to assess member access issues and improve coverage incentives.
 
+# The Analysis
 ## 3. Comparing Emergency and Elective Admissions to Assess Service Strain
 
-### Visualizaing data
+### Visualize data
 ``` python
 # Plotting of  stacked area chart
 fig, ax = plt.subplots(figsize=(14, 6))
@@ -201,9 +203,10 @@ Facility should consider:
 - Examining  what occurred in May 2020 to drive the spike
 - Considering  adding more non-emergency capacity or triage to better manage future peaks.
 
+# The Analysis
 ## 4. Accessing Ward Capacity Utilization Rate
 
-### Visualizaing Data
+### Visualize Data
 ``` python
 ax.set_xticks(selected_locs)
 ax.set_xticklabels(selected_labels, rotation=45, ha='right')
@@ -228,10 +231,10 @@ Facility should consider:
 - Consider redistributing traffic or replicating facilities in Room 393 to prevent overuse.
 - Investigate Room 388 for possible operational issues (e.g., equipment, staffing, isolation).
 - Plan staffing and infrastructure adjustments for high-traffic periods like September 2019.
-
+# The Analysis
 ## 5. Analyzing which Medical Conditions Generate the Highest Costs.
 
-### Visualizing Data
+### Visualize Data
 ``` python
 # Plotting Bubble Chart (Frequency vs Billing, size = Frequency, hue = Abnormal Rate)
 plt.figure(figsize=(12, 8))
@@ -274,9 +277,10 @@ Facility should consider:
 - Conducting a billing audit and care-pathway optimization for Obesity.
 - Reviewing clinical guidelines and aftercare plans for Arthritis.
 
+# The Analysis
 ## 6. Tracking monthly disease risk & seasonal staffing needs
 
-### Visualizing Data
+### Visualize Data
 ``` python
 # Plotting Dual-axis line plot
 sns.set(style="whitegrid")
@@ -318,9 +322,10 @@ Facility should consider:
 - Allocate more staff and resources ahead of August 2020 in future cycles.
 - Review scheduling practices to avoid low staffing during critical periods like May 2024.
 
+# The Analysis
 ## 7. Comparing Doctors' Workloads
 
-### Visualizing Data
+### Visualize Data
 ``` python
 # Plotting bar chart
 plt.figure(figsize=(12, 8))
@@ -360,13 +365,13 @@ Facility should consider:
 - Investigating David Johnson's treatment or triage practices for quality improvement.
 - Reviewing case complexity and billing justification for William Johnson to optimize cost-efficiency.
 
-## What I Learned
+# What I Learned
 In the course of the project, I developed my understanding on how to use data to solve real healthcare challenges and improved my technical skills in python, especially in data manipulation and visualization. Here are a few specific concepts I learned:
 
 - Advanced Python Usage: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
 - Data Cleaning importance: I learned that thorough data cleaning and preparation are crucial before any meaningful analysis can be conducted, ensuring the accuracy of insights derived from the data.
 
-## General Insights
+# General Insights
 This dataset offers several general insights for healthcare facilities:
 - Arthritis is the most prevalent and risk-prone condition, with 9,308 diagnoses and the highest abnormal outcome rate at 34.3%.
 - Asthma has the greatest gender disparity in diagnoses and is also the least reported condition, with only 9,185 cases.
@@ -374,7 +379,7 @@ This dataset offers several general insights for healthcare facilities:
 - Obesity and Arthritis are the costliest conditions, with Obesity averaging $25,805.97 per patient and Arthritis showing high frequency and abnormality.
 - Physician and resource utilization varied significantly—Michael Smith handled the most patients (27), while William Johnson led in billing per patient ($31,279.88), and David Johnson had the highest abnormal test rate (53.3%).
 
-### General Recommedations
+# General Recommedations
 Below are my recommedations for healthcare facility based on my indept analysis of the dataset.
 
 - Increase targeted support for Arthritis through enhanced screening, chronic care programs, and clinical review to reduce abnormal outcomes and long-term admissions.
@@ -383,12 +388,12 @@ Below are my recommedations for healthcare facility based on my indept analysis 
 - Optimize infrastructure and staffing based on room usage and seasonal demand patterns, ensuring better preparedness for high-traffic periods and underutilized spaces.
 - Monitor physician workloads and outcomes—adjusting schedules, reviewing care quality, and auditing billing practices to improve efficiency and reduce risks.
 
-### Challenges I Faced
+# Challenges I Faced
 This task pesents certain challenges which I turned into good learning experiences:
 
 - Data Inconsistencies: Handling missing or inconsistent data entries requires careful consideration and thorough data-cleaning techniques to ensure the integrity of the analysis.
 - Complex Data Visualization: Designing effective visual representations of complex datasets was challenging but critical for conveying insights clearly and compellingly.
 - Balancing Breadth and Depth: Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details
 
-### Conclusion
+# Conclusion
 This exploration into healthcare analysis has been highly informative, emphasizing how potential healthcare  challenges could be surmounted through insights from data. The insights I obtained improved my uderstanding and provided actionable guidance for healthcare facilities.
