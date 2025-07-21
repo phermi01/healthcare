@@ -200,7 +200,7 @@ plt.show()
 
 ### Recommendations:
 Facility should consider:
-- Examining  what occurred in May 2020 to drive the spike
+- Examining  what occurred in May 2020 to drive the spike.
 - Considering  adding more non-emergency capacity or triage to better manage future peaks.
 
 # The Analysis
